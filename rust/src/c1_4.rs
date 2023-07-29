@@ -29,8 +29,6 @@ pub fn run_challenge() {
   );
   println!("3. It type checks \u{25fb}.\nRead the code to understand what i mean.");
   println!("4. Is the world-wide web a category in any sense? Are links morphisms? \nYes, with links as morphisms and webpages as objects");
-  println!(
-    "5. Is Facebook a category, with people as objects and friendships as morphisms? \nYes, since graphs are a category."
-  );
+  println!("5. Is Facebook a category, with people as objects and friendships as morphisms? \nYes, since graphs are a category.");
   println!("6. Directed graphs are a subset of graphs");
 }
