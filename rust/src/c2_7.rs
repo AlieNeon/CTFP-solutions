@@ -34,7 +34,8 @@ pub fn run_challenge() {
 		Side effects moment, like yeah the bool can be cached but that print not
 	int f(int x) {{static int y = 0;y += x;return y;}}
 		So static is just a way to say there is some internal state in the function, just like out cache_f, but not for good but for evil");
-	println!("5. There are a bunch of boolean functions: not, and, or, xor, and their negatives, including (notnot := id) that we all know a coconut is a nut. I may be forgeting some but you get the gist being a finite set there is a finite ammount of (pure (terminating)) functions");
+	println!("5. There are a bunch of boolean functions: not, and, or, xor, and their negatives, including (notnot := id) that we all know a coconut is a nut. I may be forgeting some but you get the gist being a finite set there is a finite ammount of (pure (terminating)) functions
+	Just realized that its bool -> bool not like i said so there are only 4: not, id, true and false");
 	println!("6. A picture of all () -> Bool mappings
   true <- () -> false
     true()  false()")
